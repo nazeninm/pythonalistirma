@@ -1,1 +1,0 @@
-# pythonalistirma
