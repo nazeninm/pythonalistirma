@@ -1,0 +1,14 @@
+# girinler stringte çift indeksli girdileri büyük harf tek indeksli girdileri küçük harf yapan program
+
+def alternating(string):
+    new_string = ''
+    for string_indeks in range(len(string)):
+        if string_indeks % 2 == 0:
+            new_string += string[string_indeks].upper()
+        else:
+            new_string += string[string_indeks].lower()
+    print(new_string)
+
+
+
+alternating("Teknoloji dünyasına hoşgeldiniz")
