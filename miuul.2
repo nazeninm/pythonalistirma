@@ -1,0 +1,15 @@
+# fonksiyon yazınız.
+# çift indekste olanlar bir listeye
+# tek indekste olanlar bir listede.
+# iki liste tek liste olarak return olsun.
+
+students=["ALİ", "OSMAN","ZEYNEP","AYŞE"]
+a = []
+b= []
+for indeks, student in enumerate(students):
+    group = [[],[]]
+    if indeks % 2 == 0:
+      a.append(student)
+    else:
+        b.append(student)
+print(a,b)
